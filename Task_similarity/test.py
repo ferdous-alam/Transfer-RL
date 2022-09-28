@@ -9,8 +9,9 @@ import codecs
 import argparse
 
 def test_env():
-    xml_path = "/home/ghost-083/Research/1_Transfer_RL/Task_similarity/env_mods/assets/ant/ant_5.xml"
-    env = gym.make('Ant-v3', xml_file=xml_path)
+    env = gym.make('CartPole-v1', pole_length=1.0, mass_cart=1.0, 
+                mass_pole=0.1, gravity=3*9.8, 
+                video_path='video/cartpole_5')
     curr_obs = env.reset(seed=908778)   # make sure seed is same for all experiments
     terminated = False
     for k in range(200):
