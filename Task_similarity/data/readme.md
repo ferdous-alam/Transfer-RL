@@ -1,6 +1,2 @@
 ## dataset for RL environments
-Environment tested: 
-
-1. Classic control: Mountain car, Inverted pendulum
-2. Mujoco: Ant-v3
-3. Mujoco: HalfCheetah-v3
+All datasets are stored locally and in google drive. Before running the experiments, dataset is required to be downloaded in this directory. 

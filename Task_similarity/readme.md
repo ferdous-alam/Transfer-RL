@@ -1,4 +1,4 @@
-## Task similarity in RL
+## dataset for RL environments
 Environment tested: 
 
 1. Classic control: Mountain car, Inverted pendulum
