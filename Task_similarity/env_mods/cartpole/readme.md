@@ -8,7 +8,5 @@ Environment tested:
 4. Carpotle Mod 4: pole_length=$0.75$, mass_cart=$1.0$, mass_pole=$0.1$, gravity=$19.6$
 5. Carpotle Mod 5: pole_length=$1.0$, mass_cart=$1.0$,mass_pole=$0.1$, gravity=$29.4$
 
-<!-- 
-![](cartpole_0/cartpole_1.gif)
-![](cartpole_1/cartpole_2.gif)
--->
+![](gifs/cartpole_1.gif)
+![](gifs/cartpole_2.gif)
