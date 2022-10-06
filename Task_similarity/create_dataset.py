@@ -20,13 +20,19 @@ def create_dataset(env_name, num_traj, env_args=None, dataset_num=None,
                         g=env_args[0], 
                         gravity=env_args[1], 
                         force=env_args[2], video_path=video_path)
+  
     elif env_name == "Ant":
         assert len(env_args) == 1, "ant environment only requires modified xml file path"
         xml_path = env_args[0]
         env = gym.make('Ant-v3', xml_file=xml_path)
 
+    elif env_name == 'Cartpole':
+        assert len(env_args) == 3, "missing environment arguments for Pendulum: pole_length, mass_car, mass_pole, gravity""
+        env = gym.make('CartPole-v1', pole_length=env_args[0], mass_cart=env_args[1], 
+            mass_pole=env_args[2], gravity=env_args[3])
+
     else:
-        raise Exception('Only the following modified environments are supported at this moment: Pendulum, Ant')
+        raise Exception('Only the following modified environments are supported at this moment: Pendulum, Ant, Cartpole')
 
     train_data = []  # training data to collect for model training
 
