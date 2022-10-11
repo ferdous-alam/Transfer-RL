@@ -1,7 +1,7 @@
 ## dataset for RL environments
 Environment tested: 
 
-1. Classic control: Inverted pendulum, CartPole-v3
+1. Classic control: Inverted pendulum, CartPole-v1
 2. Mujoco: Ant-v3
 
 ## create dataset
