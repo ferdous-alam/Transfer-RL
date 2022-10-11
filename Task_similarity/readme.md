@@ -21,7 +21,7 @@ Environment tested:
  
 3. To create dataset for the **CartPole-v1**, run the following command
 
-        python create_dataset.py -e 'Ant' -n 100 -a 0.5 1.0 0.1 9.8 -dn 0 -sd True -dt 'train'
+        python create_dataset.py -e 'Cartpole' -n 100 -a 0.5 1.0 0.1 9.8 -dn 0 -sd True -dt 'train'
         
  where, pole length = $0.5$, mass of cart = $0.5$, mass of pole = $0.5$, gravity = $9.8$
         
