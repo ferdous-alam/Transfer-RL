@@ -6,28 +6,25 @@ from tqdm import tqdm
 import json
 import codecs
 import argparse
-from environments.pendulum_mod import PendulumEnvMod
 
 
-def create_dataset(env_name, num_traj, env_args=None, dataset_num=None, 
-                    render=False, save_data=False, video_path=None):
-    
+def create_dataset(env_name, num_traj, env_args=None, xml_path=None, dataset_num=None, 
+                    render=False, save_data=False, dtype=None, video_path=None):
     
     if env_name == "Pendulum":
         assert len(env_args) == 3, "missing environment arguments for Pendulum: g, gravity, Force"
-        # env = PendulumEnvMod(g=g, gravity=gravity, force=force)  # instantiate environment
         env = gym.make('Pendulum-v1', 
                         g=env_args[0], 
                         gravity=env_args[1], 
                         force=env_args[2], video_path=video_path)
   
     elif env_name == "Ant":
-        assert len(env_args) == 1, "ant environment only requires modified xml file path"
-        xml_path = env_args[0]
+        assert xml_path != None, "ant environment only requires modified xml file path"
+        xml_path = xml_path
         env = gym.make('Ant-v3', xml_file=xml_path)
 
     elif env_name == 'Cartpole':
-        assert len(env_args) == 3, "missing environment arguments for Pendulum: pole_length, mass_car, mass_pole, gravity""
+        assert len(env_args) == 4, "missing environment arguments for Cartploe: pole_length, mass_cart, mass_pole, gravity"
         env = gym.make('CartPole-v1', pole_length=env_args[0], mass_cart=env_args[1], 
             mass_pole=env_args[2], gravity=env_args[3])
 
@@ -47,9 +44,14 @@ def create_dataset(env_name, num_traj, env_args=None, dataset_num=None,
             action = env.action_space.sample()
             next_obs, reward, terminated, info = env.step(action)
             # data = (state, action, next_state, reward)
-            data = [curr_obs.tolist(), action.tolist(),
-                    next_obs.tolist(), reward,
-                    terminated, info]
+            if env_name == "Pendulum":
+                data = [curr_obs.tolist(), action.tolist(),
+                        next_obs.tolist(), reward,
+                        terminated, info]
+            elif env_name == "Cartpole":
+                data = [curr_obs.tolist(), [action],
+                        next_obs.tolist(), reward,
+                        terminated, info]
             traj_data.append(data)
             curr_obs = next_obs
                         
@@ -70,7 +72,7 @@ def create_dataset(env_name, num_traj, env_args=None, dataset_num=None,
                'data': train_data}
 
     if save_data == True:
-        json.dump(dataset, codecs.open('/media/ghost-083/SolarSystem1/1_Research/Transfer-RL/Task_similarity/dataset/{}_dataset_{}.json'.format(env_name, dataset_num), 'w', encoding='utf-8'),
+        json.dump(dataset, codecs.open('/media/ghost-083/SolarSystem1/1_Research/00_Transfer-RL/Task_similarity/dataset/{}/{}_dataset_{}_{}.json'.format(env_name, env_name, dataset_num, dtype), 'w', encoding='utf-8'),
                 separators=(',', ':'),
                 sort_keys=True,
                 indent=4)
@@ -80,13 +82,22 @@ parser = argparse.ArgumentParser(description='Dataset collection for RL task sim
 parser.add_argument('-e', '--env_name', type=str, required=True, help='gym environment name')
 parser.add_argument('-n', '--num_traj', type=int, required=True, help='number of trajectories')
 parser.add_argument('-a', '--env_args', nargs='*', action='store', type=float, required=False, help='environment arguments')
+parser.add_argument('-x', '--xml_path', type=str, required=False, help='environment mod xml path')
 parser.add_argument('-dn', '--dataset_num', type=int, required=True, help='dataset file number')
 parser.add_argument('-r', '--render', type=bool, required=False, help='render option, default is false')
 parser.add_argument('-sd', '--save_data', type=bool, required=False, help='save data option, default is false')
+parser.add_argument('-dt', '--dtype', type=str, required=True, help='dataset type: train or test, default is None')
 parser.add_argument('-video', '--video_path', type=str, required=False, help='path to save video, default is None')
 args = parser.parse_args()
 
 if __name__ == "__main__":
-    create_dataset(args.env_name, args.num_traj, args.env_args,
-                   args.dataset_num, args.render, args.save_data, 
+    # run pendulum ---
+    # python create_dataset.py -e 'Pendulum' -n 100 -a 'env_mods/Ant/assets/ant_0.xml' -dn 0 -sd True
+    # run cartpole ---
+    # python create_dataset.py -e 'Cartpole' -n 100 -a 'env_mods/Ant/assets/ant_0.xml' -dn 0 -sd True
+    # run ant ---
+    # python create_dataset.py -e 'Ant' -n 100 -x '/home/ghost-083/Research/1_Transfer_RL/Task_similarity/env_mods/Ant/assets/ant_0.xml' -dn 0 -sd True
+
+    create_dataset(args.env_name, args.num_traj, args.env_args, args.xml_path,
+                   args.dataset_num, args.render, args.save_data, args.dtype,
                    args.video_path)
