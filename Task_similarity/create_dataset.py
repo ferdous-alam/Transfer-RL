@@ -28,6 +28,14 @@ def create_dataset(env_name, num_traj, env_args=None, xml_path=None, dataset_num
         env = gym.make('CartPole-v1', pole_length=env_args[0], mass_cart=env_args[1], 
             mass_pole=env_args[2], gravity=env_args[3])
 
+    elif env_name == 'Halfcheetah':
+           assert xml_path != None, "ant environment only requires modified xml file path"
+           assert len(env_args) == 3, "missing environment arguments for halfcheetah: forward_reward_weight, ctrl_cost_weight, reset_noise_scale"
+           env = gym.make('HalfCheetah-v3', xml_file=xml_path, 
+                        forward_reward_weight=env_args[0], 
+                        ctrl_cost_weight=env_args[1], 
+                        reset_noise_scale=env_args[2]
+                        )
     else:
         raise Exception('Only the following modified environments are supported at this moment: Pendulum, Ant, Cartpole')
 
@@ -44,7 +52,7 @@ def create_dataset(env_name, num_traj, env_args=None, xml_path=None, dataset_num
             action = env.action_space.sample()
             next_obs, reward, terminated, info = env.step(action)
             # data = (state, action, next_state, reward)
-            if env_name == "Pendulum":
+            if env_name == "Pendulum" or env_name == "Halfcheetah":
                 data = [curr_obs.tolist(), action.tolist(),
                         next_obs.tolist(), reward,
                         terminated, info]
@@ -52,11 +60,14 @@ def create_dataset(env_name, num_traj, env_args=None, xml_path=None, dataset_num
                 data = [curr_obs.tolist(), [action],
                         next_obs.tolist(), reward,
                         terminated, info]
+
+            else:
+                raise Exception('Wrong environment name!')            
             traj_data.append(data)
             curr_obs = next_obs
                         
             if render:
-                time.sleep(0.01)
+                time.sleep(0.005)
             
         train_data.append(traj_data)
 
@@ -97,6 +108,9 @@ if __name__ == "__main__":
     # python create_dataset.py -e 'Cartpole' -n 100 -a 'env_mods/Ant/assets/ant_0.xml' -dn 0 -sd True
     # run ant ---
     # python create_dataset.py -e 'Ant' -n 100 -x '/home/ghost-083/Research/1_Transfer_RL/Task_similarity/env_mods/Ant/assets/ant_0.xml' -dn 0 -sd True
+
+    ## --- run half-cheetah ----
+    # python create_dataset.py -e 'Halfcheetah' -n 100 -a 1.0 0.1 0.1 -x '/home/ghost-083/Research/1_Transfer_RL/Task_similarity/env_mods/half-cheetah/assets/half_cheetah_0.xml' -dn 0 -dt 'train' -sd True
 
     create_dataset(args.env_name, args.num_traj, args.env_args, args.xml_path,
                    args.dataset_num, args.render, args.save_data, args.dtype,
