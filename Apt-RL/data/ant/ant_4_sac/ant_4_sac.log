@@ -1,0 +1,2010 @@
+Experiment name: ant_4_sac ------- [Mon Feb 13 10:50:29 2023]
+-------------------------------------------------------------------
+Replay buffer size: 100000
+learning starts after : 10000 steps
+Update models in every: 50 steps
+Number of gradient update at this step: 50
+Number of evaluation episodes after every 1000 steps: 10
+begin training # # # # # 
+step 1000/1000000, avs test return 997.258807
+    eval loss: 997
+step 2000/1000000, avs test return 997.279656
+    eval loss: 997
+step 3000/1000000, avs test return 996.903168
+    eval loss: 996
+step 4000/1000000, avs test return 997.010914
+    eval loss: 997
+step 5000/1000000, avs test return 997.144691
+    eval loss: 997
+step 6000/1000000, avs test return 996.103364
+    eval loss: 996
+step 7000/1000000, avs test return 997.205030
+    eval loss: 997
+step 8000/1000000, avs test return 996.833896
+    eval loss: 996
+step 9000/1000000, avs test return 996.700745
+    eval loss: 996
+step 10000/1000000, avs test return 995.916896
+    eval loss: 995
+step 11000/1000000, avs test return 921.305875
+    eval loss: 921
+step 12000/1000000, avs test return 891.434758
+    eval loss: 891
+step 13000/1000000, avs test return 950.762055
+    eval loss: 950
+step 14000/1000000, avs test return 811.497607
+    eval loss: 811
+step 15000/1000000, avs test return 705.921386
+    eval loss: 705
+step 16000/1000000, avs test return 851.941472
+    eval loss: 851
+step 17000/1000000, avs test return 922.682785
+    eval loss: 922
+step 18000/1000000, avs test return 708.378264
+    eval loss: 708
+step 19000/1000000, avs test return 827.800707
+    eval loss: 827
+step 20000/1000000, avs test return 587.522435
+    eval loss: 587
+step 21000/1000000, avs test return 779.454696
+    eval loss: 779
+step 22000/1000000, avs test return 755.813317
+    eval loss: 755
+step 23000/1000000, avs test return 846.558505
+    eval loss: 846
+step 24000/1000000, avs test return 815.202168
+    eval loss: 815
+step 25000/1000000, avs test return 775.621959
+    eval loss: 775
+step 26000/1000000, avs test return 619.508731
+    eval loss: 619
+step 27000/1000000, avs test return 639.133296
+    eval loss: 639
+step 28000/1000000, avs test return 788.879752
+    eval loss: 788
+step 29000/1000000, avs test return 873.709841
+    eval loss: 873
+step 30000/1000000, avs test return 862.421237
+    eval loss: 862
+step 31000/1000000, avs test return 914.935958
+    eval loss: 914
+step 32000/1000000, avs test return 816.107858
+    eval loss: 816
+step 33000/1000000, avs test return 678.663251
+    eval loss: 678
+step 34000/1000000, avs test return 733.633665
+    eval loss: 733
+step 35000/1000000, avs test return 611.725786
+    eval loss: 611
+step 36000/1000000, avs test return 869.867344
+    eval loss: 869
+step 37000/1000000, avs test return 893.785507
+    eval loss: 893
+step 38000/1000000, avs test return 839.795026
+    eval loss: 839
+step 39000/1000000, avs test return 685.541340
+    eval loss: 685
+step 40000/1000000, avs test return 718.033257
+    eval loss: 718
+step 41000/1000000, avs test return 899.602834
+    eval loss: 899
+step 42000/1000000, avs test return 767.751535
+    eval loss: 767
+step 43000/1000000, avs test return 818.060676
+    eval loss: 818
+step 44000/1000000, avs test return 839.366761
+    eval loss: 839
+step 45000/1000000, avs test return 1025.354843
+    eval loss: 1025
+step 46000/1000000, avs test return 799.343609
+    eval loss: 799
+step 47000/1000000, avs test return 880.663911
+    eval loss: 880
+step 48000/1000000, avs test return 891.446576
+    eval loss: 891
+step 49000/1000000, avs test return 780.892980
+    eval loss: 780
+step 50000/1000000, avs test return 732.240569
+    eval loss: 732
+step 51000/1000000, avs test return 714.419944
+    eval loss: 714
+step 52000/1000000, avs test return 843.226523
+    eval loss: 843
+step 53000/1000000, avs test return 440.782468
+    eval loss: 440
+step 54000/1000000, avs test return 887.463537
+    eval loss: 887
+step 55000/1000000, avs test return 692.512386
+    eval loss: 692
+step 56000/1000000, avs test return 691.456066
+    eval loss: 691
+step 57000/1000000, avs test return 828.575800
+    eval loss: 828
+step 58000/1000000, avs test return 760.961006
+    eval loss: 760
+step 59000/1000000, avs test return 859.427075
+    eval loss: 859
+step 60000/1000000, avs test return 869.749895
+    eval loss: 869
+step 61000/1000000, avs test return 1009.101860
+    eval loss: 1009
+step 62000/1000000, avs test return 863.842747
+    eval loss: 863
+step 63000/1000000, avs test return 766.510055
+    eval loss: 766
+step 64000/1000000, avs test return 911.981051
+    eval loss: 911
+step 65000/1000000, avs test return 835.985091
+    eval loss: 835
+step 66000/1000000, avs test return 775.557580
+    eval loss: 775
+step 67000/1000000, avs test return 720.409433
+    eval loss: 720
+step 68000/1000000, avs test return 805.987942
+    eval loss: 805
+step 69000/1000000, avs test return 841.588567
+    eval loss: 841
+step 70000/1000000, avs test return 777.534337
+    eval loss: 777
+step 71000/1000000, avs test return 747.980489
+    eval loss: 747
+step 72000/1000000, avs test return 695.397360
+    eval loss: 695
+step 73000/1000000, avs test return 834.938381
+    eval loss: 834
+step 74000/1000000, avs test return 898.823225
+    eval loss: 898
+step 75000/1000000, avs test return 919.460150
+    eval loss: 919
+step 76000/1000000, avs test return 937.264040
+    eval loss: 937
+step 77000/1000000, avs test return 934.366480
+    eval loss: 934
+step 78000/1000000, avs test return 652.487358
+    eval loss: 652
+step 79000/1000000, avs test return 787.897407
+    eval loss: 787
+step 80000/1000000, avs test return 560.110551
+    eval loss: 560
+step 81000/1000000, avs test return 629.672459
+    eval loss: 629
+step 82000/1000000, avs test return 958.673364
+    eval loss: 958
+step 83000/1000000, avs test return 900.507598
+    eval loss: 900
+step 84000/1000000, avs test return 827.179595
+    eval loss: 827
+step 85000/1000000, avs test return 672.871936
+    eval loss: 672
+step 86000/1000000, avs test return 819.096230
+    eval loss: 819
+step 87000/1000000, avs test return 737.196739
+    eval loss: 737
+step 88000/1000000, avs test return 687.820435
+    eval loss: 687
+step 89000/1000000, avs test return 779.082099
+    eval loss: 779
+step 90000/1000000, avs test return 1085.678201
+    eval loss: 1085
+step 91000/1000000, avs test return 761.381644
+    eval loss: 761
+step 92000/1000000, avs test return 852.971340
+    eval loss: 852
+step 93000/1000000, avs test return 854.407504
+    eval loss: 854
+step 94000/1000000, avs test return 730.776955
+    eval loss: 730
+step 95000/1000000, avs test return 1104.760897
+    eval loss: 1104
+step 96000/1000000, avs test return 808.386136
+    eval loss: 808
+step 97000/1000000, avs test return 1196.405938
+    eval loss: 1196
+step 98000/1000000, avs test return 1024.031008
+    eval loss: 1024
+step 99000/1000000, avs test return 987.078052
+    eval loss: 987
+step 100000/1000000, avs test return 915.171162
+    eval loss: 915
+step 101000/1000000, avs test return 817.470310
+    eval loss: 817
+step 102000/1000000, avs test return 991.666836
+    eval loss: 991
+step 103000/1000000, avs test return 1025.120499
+    eval loss: 1025
+step 104000/1000000, avs test return 766.157255
+    eval loss: 766
+step 105000/1000000, avs test return 835.241857
+    eval loss: 835
+step 106000/1000000, avs test return 1013.643193
+    eval loss: 1013
+step 107000/1000000, avs test return 907.944172
+    eval loss: 907
+step 108000/1000000, avs test return 875.181325
+    eval loss: 875
+step 109000/1000000, avs test return 741.050447
+    eval loss: 741
+step 110000/1000000, avs test return 832.768722
+    eval loss: 832
+step 111000/1000000, avs test return 806.946359
+    eval loss: 806
+step 112000/1000000, avs test return 980.091463
+    eval loss: 980
+step 113000/1000000, avs test return 715.185268
+    eval loss: 715
+step 114000/1000000, avs test return 913.554115
+    eval loss: 913
+step 115000/1000000, avs test return 924.985433
+    eval loss: 924
+step 116000/1000000, avs test return 690.946433
+    eval loss: 690
+step 117000/1000000, avs test return 724.459432
+    eval loss: 724
+step 118000/1000000, avs test return 738.847503
+    eval loss: 738
+step 119000/1000000, avs test return 770.305820
+    eval loss: 770
+step 120000/1000000, avs test return 924.547854
+    eval loss: 924
+step 121000/1000000, avs test return 735.362817
+    eval loss: 735
+step 122000/1000000, avs test return 937.225737
+    eval loss: 937
+step 123000/1000000, avs test return 743.362338
+    eval loss: 743
+step 124000/1000000, avs test return 699.364120
+    eval loss: 699
+step 125000/1000000, avs test return 616.968515
+    eval loss: 616
+step 126000/1000000, avs test return 944.824315
+    eval loss: 944
+step 127000/1000000, avs test return 834.545699
+    eval loss: 834
+step 128000/1000000, avs test return 871.055026
+    eval loss: 871
+step 129000/1000000, avs test return 540.942467
+    eval loss: 540
+step 130000/1000000, avs test return 789.721068
+    eval loss: 789
+step 131000/1000000, avs test return 896.751699
+    eval loss: 896
+step 132000/1000000, avs test return 834.965944
+    eval loss: 834
+step 133000/1000000, avs test return 971.959439
+    eval loss: 971
+step 134000/1000000, avs test return 679.289342
+    eval loss: 679
+step 135000/1000000, avs test return 673.094564
+    eval loss: 673
+step 136000/1000000, avs test return 822.044023
+    eval loss: 822
+step 137000/1000000, avs test return 1339.191267
+    eval loss: 1339
+step 138000/1000000, avs test return 1067.590086
+    eval loss: 1067
+step 139000/1000000, avs test return 894.654685
+    eval loss: 894
+step 140000/1000000, avs test return 754.821303
+    eval loss: 754
+step 141000/1000000, avs test return 566.701849
+    eval loss: 566
+step 142000/1000000, avs test return 783.313748
+    eval loss: 783
+step 143000/1000000, avs test return 899.251974
+    eval loss: 899
+step 144000/1000000, avs test return 727.944846
+    eval loss: 727
+step 145000/1000000, avs test return 839.064240
+    eval loss: 839
+step 146000/1000000, avs test return 886.969569
+    eval loss: 886
+step 147000/1000000, avs test return 910.953944
+    eval loss: 910
+step 148000/1000000, avs test return 1103.069625
+    eval loss: 1103
+step 149000/1000000, avs test return 771.224891
+    eval loss: 771
+step 150000/1000000, avs test return 1183.658249
+    eval loss: 1183
+step 151000/1000000, avs test return 955.410922
+    eval loss: 955
+step 152000/1000000, avs test return 764.373111
+    eval loss: 764
+step 153000/1000000, avs test return 848.272938
+    eval loss: 848
+step 154000/1000000, avs test return 910.008453
+    eval loss: 910
+step 155000/1000000, avs test return 918.008929
+    eval loss: 918
+step 156000/1000000, avs test return 987.775925
+    eval loss: 987
+step 157000/1000000, avs test return 697.154377
+    eval loss: 697
+step 158000/1000000, avs test return 973.167015
+    eval loss: 973
+step 159000/1000000, avs test return 923.501758
+    eval loss: 923
+step 160000/1000000, avs test return 550.076967
+    eval loss: 550
+step 161000/1000000, avs test return 873.828416
+    eval loss: 873
+step 162000/1000000, avs test return 895.603703
+    eval loss: 895
+step 163000/1000000, avs test return 775.541066
+    eval loss: 775
+step 164000/1000000, avs test return 981.252987
+    eval loss: 981
+step 165000/1000000, avs test return 1008.798759
+    eval loss: 1008
+step 166000/1000000, avs test return 914.782715
+    eval loss: 914
+step 167000/1000000, avs test return 862.554354
+    eval loss: 862
+step 168000/1000000, avs test return 921.990581
+    eval loss: 921
+step 169000/1000000, avs test return 964.714135
+    eval loss: 964
+step 170000/1000000, avs test return 898.419334
+    eval loss: 898
+step 171000/1000000, avs test return 1006.937320
+    eval loss: 1006
+step 172000/1000000, avs test return 965.236325
+    eval loss: 965
+step 173000/1000000, avs test return 1030.729006
+    eval loss: 1030
+step 174000/1000000, avs test return 715.934560
+    eval loss: 715
+step 175000/1000000, avs test return 1017.448752
+    eval loss: 1017
+step 176000/1000000, avs test return 1008.156868
+    eval loss: 1008
+step 177000/1000000, avs test return 778.735289
+    eval loss: 778
+step 178000/1000000, avs test return 659.150642
+    eval loss: 659
+step 179000/1000000, avs test return 997.497840
+    eval loss: 997
+step 180000/1000000, avs test return 1011.449084
+    eval loss: 1011
+step 181000/1000000, avs test return 926.124627
+    eval loss: 926
+step 182000/1000000, avs test return 717.046754
+    eval loss: 717
+step 183000/1000000, avs test return 968.368261
+    eval loss: 968
+step 184000/1000000, avs test return 822.068159
+    eval loss: 822
+step 185000/1000000, avs test return 749.698161
+    eval loss: 749
+step 186000/1000000, avs test return 1043.406416
+    eval loss: 1043
+step 187000/1000000, avs test return 1070.965182
+    eval loss: 1070
+step 188000/1000000, avs test return 951.262924
+    eval loss: 951
+step 189000/1000000, avs test return 670.198044
+    eval loss: 670
+step 190000/1000000, avs test return 769.299049
+    eval loss: 769
+step 191000/1000000, avs test return 907.082873
+    eval loss: 907
+step 192000/1000000, avs test return 1115.902458
+    eval loss: 1115
+step 193000/1000000, avs test return 953.300007
+    eval loss: 953
+step 194000/1000000, avs test return 851.533173
+    eval loss: 851
+step 195000/1000000, avs test return 580.604495
+    eval loss: 580
+step 196000/1000000, avs test return 1155.568945
+    eval loss: 1155
+step 197000/1000000, avs test return 900.754533
+    eval loss: 900
+step 198000/1000000, avs test return 803.356655
+    eval loss: 803
+step 199000/1000000, avs test return 764.715757
+    eval loss: 764
+step 200000/1000000, avs test return 911.566779
+    eval loss: 911
+step 201000/1000000, avs test return 1015.842640
+    eval loss: 1015
+step 202000/1000000, avs test return 1132.004055
+    eval loss: 1132
+step 203000/1000000, avs test return 844.377594
+    eval loss: 844
+step 204000/1000000, avs test return 323.016531
+    eval loss: 323
+step 205000/1000000, avs test return 686.548921
+    eval loss: 686
+step 206000/1000000, avs test return 669.295865
+    eval loss: 669
+step 207000/1000000, avs test return 496.004077
+    eval loss: 496
+step 208000/1000000, avs test return 899.000818
+    eval loss: 899
+step 209000/1000000, avs test return 1015.637462
+    eval loss: 1015
+step 210000/1000000, avs test return 1034.454857
+    eval loss: 1034
+step 211000/1000000, avs test return 846.231815
+    eval loss: 846
+step 212000/1000000, avs test return 879.285184
+    eval loss: 879
+step 213000/1000000, avs test return 1065.244077
+    eval loss: 1065
+step 214000/1000000, avs test return 944.837390
+    eval loss: 944
+step 215000/1000000, avs test return 1195.315881
+    eval loss: 1195
+step 216000/1000000, avs test return 1476.769635
+    eval loss: 1476
+step 217000/1000000, avs test return 634.945732
+    eval loss: 634
+step 218000/1000000, avs test return 1285.736293
+    eval loss: 1285
+step 219000/1000000, avs test return 1126.126622
+    eval loss: 1126
+step 220000/1000000, avs test return 706.197857
+    eval loss: 706
+step 221000/1000000, avs test return 1070.648533
+    eval loss: 1070
+step 222000/1000000, avs test return 735.289042
+    eval loss: 735
+step 223000/1000000, avs test return 966.066088
+    eval loss: 966
+step 224000/1000000, avs test return 1499.077102
+    eval loss: 1499
+step 225000/1000000, avs test return 872.211601
+    eval loss: 872
+step 226000/1000000, avs test return 773.452313
+    eval loss: 773
+step 227000/1000000, avs test return 470.419174
+    eval loss: 470
+step 228000/1000000, avs test return 1022.532646
+    eval loss: 1022
+step 229000/1000000, avs test return 813.732763
+    eval loss: 813
+step 230000/1000000, avs test return 578.360668
+    eval loss: 578
+step 231000/1000000, avs test return 996.447062
+    eval loss: 996
+step 232000/1000000, avs test return 966.278830
+    eval loss: 966
+step 233000/1000000, avs test return 856.075809
+    eval loss: 856
+step 234000/1000000, avs test return 1088.932848
+    eval loss: 1088
+step 235000/1000000, avs test return 1130.133203
+    eval loss: 1130
+step 236000/1000000, avs test return 1578.965864
+    eval loss: 1578
+step 237000/1000000, avs test return 1181.247889
+    eval loss: 1181
+step 238000/1000000, avs test return 1473.962426
+    eval loss: 1473
+step 239000/1000000, avs test return 1182.629264
+    eval loss: 1182
+step 240000/1000000, avs test return 1171.054142
+    eval loss: 1171
+step 241000/1000000, avs test return 1499.212256
+    eval loss: 1499
+step 242000/1000000, avs test return 1277.962111
+    eval loss: 1277
+step 243000/1000000, avs test return 933.703163
+    eval loss: 933
+step 244000/1000000, avs test return 930.123648
+    eval loss: 930
+step 245000/1000000, avs test return 943.064541
+    eval loss: 943
+step 246000/1000000, avs test return 771.730560
+    eval loss: 771
+step 247000/1000000, avs test return 909.473555
+    eval loss: 909
+step 248000/1000000, avs test return 1447.058926
+    eval loss: 1447
+step 249000/1000000, avs test return 1504.027107
+    eval loss: 1504
+step 250000/1000000, avs test return 1586.412400
+    eval loss: 1586
+step 251000/1000000, avs test return 1531.685677
+    eval loss: 1531
+step 252000/1000000, avs test return 1561.530494
+    eval loss: 1561
+step 253000/1000000, avs test return 1103.099686
+    eval loss: 1103
+step 254000/1000000, avs test return 1311.837196
+    eval loss: 1311
+step 255000/1000000, avs test return 1340.231034
+    eval loss: 1340
+step 256000/1000000, avs test return 1305.073854
+    eval loss: 1305
+step 257000/1000000, avs test return 1371.374979
+    eval loss: 1371
+step 258000/1000000, avs test return 1069.471893
+    eval loss: 1069
+step 259000/1000000, avs test return 877.425243
+    eval loss: 877
+step 260000/1000000, avs test return 1049.215085
+    eval loss: 1049
+step 261000/1000000, avs test return 1347.795730
+    eval loss: 1347
+step 262000/1000000, avs test return 1767.168696
+    eval loss: 1767
+step 263000/1000000, avs test return 1067.523297
+    eval loss: 1067
+step 264000/1000000, avs test return 1101.729314
+    eval loss: 1101
+step 265000/1000000, avs test return 1097.470769
+    eval loss: 1097
+step 266000/1000000, avs test return 1106.176664
+    eval loss: 1106
+step 267000/1000000, avs test return 738.274249
+    eval loss: 738
+step 268000/1000000, avs test return 1007.021072
+    eval loss: 1007
+step 269000/1000000, avs test return 1022.044036
+    eval loss: 1022
+step 270000/1000000, avs test return 1134.226172
+    eval loss: 1134
+step 271000/1000000, avs test return 999.833299
+    eval loss: 999
+step 272000/1000000, avs test return 833.386240
+    eval loss: 833
+step 273000/1000000, avs test return 1543.932672
+    eval loss: 1543
+step 274000/1000000, avs test return 1270.958947
+    eval loss: 1270
+step 275000/1000000, avs test return 983.527528
+    eval loss: 983
+step 276000/1000000, avs test return 1353.286620
+    eval loss: 1353
+step 277000/1000000, avs test return 882.708920
+    eval loss: 882
+step 278000/1000000, avs test return 901.003594
+    eval loss: 901
+step 279000/1000000, avs test return 1085.880872
+    eval loss: 1085
+step 280000/1000000, avs test return 1037.920754
+    eval loss: 1037
+step 281000/1000000, avs test return 1664.444488
+    eval loss: 1664
+step 282000/1000000, avs test return 1179.465051
+    eval loss: 1179
+step 283000/1000000, avs test return 1384.244786
+    eval loss: 1384
+step 284000/1000000, avs test return 1554.705134
+    eval loss: 1554
+step 285000/1000000, avs test return 1441.921897
+    eval loss: 1441
+step 286000/1000000, avs test return 1748.632441
+    eval loss: 1748
+step 287000/1000000, avs test return 1522.906988
+    eval loss: 1522
+step 288000/1000000, avs test return 1728.373639
+    eval loss: 1728
+step 289000/1000000, avs test return 1015.830693
+    eval loss: 1015
+step 290000/1000000, avs test return 1182.412757
+    eval loss: 1182
+step 291000/1000000, avs test return 1206.539827
+    eval loss: 1206
+step 292000/1000000, avs test return 1190.570395
+    eval loss: 1190
+step 293000/1000000, avs test return 1209.881796
+    eval loss: 1209
+step 294000/1000000, avs test return 1340.561318
+    eval loss: 1340
+step 295000/1000000, avs test return 1515.761357
+    eval loss: 1515
+step 296000/1000000, avs test return 1476.083257
+    eval loss: 1476
+step 297000/1000000, avs test return 1218.522877
+    eval loss: 1218
+step 298000/1000000, avs test return 1685.063441
+    eval loss: 1685
+step 299000/1000000, avs test return 1447.186331
+    eval loss: 1447
+step 300000/1000000, avs test return 1004.363090
+    eval loss: 1004
+step 301000/1000000, avs test return 1657.799803
+    eval loss: 1657
+step 302000/1000000, avs test return 1132.209482
+    eval loss: 1132
+step 303000/1000000, avs test return 882.433375
+    eval loss: 882
+step 304000/1000000, avs test return 1828.096914
+    eval loss: 1828
+step 305000/1000000, avs test return 1516.460568
+    eval loss: 1516
+step 306000/1000000, avs test return 1850.940463
+    eval loss: 1850
+step 307000/1000000, avs test return 1179.201586
+    eval loss: 1179
+step 308000/1000000, avs test return 1579.250110
+    eval loss: 1579
+step 309000/1000000, avs test return 1028.798670
+    eval loss: 1028
+step 310000/1000000, avs test return 1182.253135
+    eval loss: 1182
+step 311000/1000000, avs test return 1055.959308
+    eval loss: 1055
+step 312000/1000000, avs test return 1315.689986
+    eval loss: 1315
+step 313000/1000000, avs test return 1339.833766
+    eval loss: 1339
+step 314000/1000000, avs test return 1643.591163
+    eval loss: 1643
+step 315000/1000000, avs test return 1217.360001
+    eval loss: 1217
+step 316000/1000000, avs test return 1157.232627
+    eval loss: 1157
+step 317000/1000000, avs test return 1646.651778
+    eval loss: 1646
+step 318000/1000000, avs test return 1862.744484
+    eval loss: 1862
+step 319000/1000000, avs test return 1531.881111
+    eval loss: 1531
+step 320000/1000000, avs test return 1678.171006
+    eval loss: 1678
+step 321000/1000000, avs test return 1084.861759
+    eval loss: 1084
+step 322000/1000000, avs test return 1601.231044
+    eval loss: 1601
+step 323000/1000000, avs test return 1993.296469
+    eval loss: 1993
+step 324000/1000000, avs test return 1961.411826
+    eval loss: 1961
+step 325000/1000000, avs test return 1807.943257
+    eval loss: 1807
+step 326000/1000000, avs test return 1942.080750
+    eval loss: 1942
+step 327000/1000000, avs test return 2012.987608
+    eval loss: 2012
+step 328000/1000000, avs test return 1867.864629
+    eval loss: 1867
+step 329000/1000000, avs test return 1730.390020
+    eval loss: 1730
+step 330000/1000000, avs test return 1745.896649
+    eval loss: 1745
+step 331000/1000000, avs test return 2155.165083
+    eval loss: 2155
+step 332000/1000000, avs test return 1982.408948
+    eval loss: 1982
+step 333000/1000000, avs test return 1739.258610
+    eval loss: 1739
+step 334000/1000000, avs test return 1744.212865
+    eval loss: 1744
+step 335000/1000000, avs test return 1705.911802
+    eval loss: 1705
+step 336000/1000000, avs test return 1505.119598
+    eval loss: 1505
+step 337000/1000000, avs test return 2121.644743
+    eval loss: 2121
+step 338000/1000000, avs test return 1264.766316
+    eval loss: 1264
+step 339000/1000000, avs test return 1970.125773
+    eval loss: 1970
+step 340000/1000000, avs test return 1892.703484
+    eval loss: 1892
+step 341000/1000000, avs test return 1315.391149
+    eval loss: 1315
+step 342000/1000000, avs test return 1308.103635
+    eval loss: 1308
+step 343000/1000000, avs test return 1219.302602
+    eval loss: 1219
+step 344000/1000000, avs test return 967.313490
+    eval loss: 967
+step 345000/1000000, avs test return 1693.542771
+    eval loss: 1693
+step 346000/1000000, avs test return 1553.462427
+    eval loss: 1553
+step 347000/1000000, avs test return 1788.574670
+    eval loss: 1788
+step 348000/1000000, avs test return 1145.747660
+    eval loss: 1145
+step 349000/1000000, avs test return 1566.879686
+    eval loss: 1566
+step 350000/1000000, avs test return 1776.302961
+    eval loss: 1776
+step 351000/1000000, avs test return 1238.707298
+    eval loss: 1238
+step 352000/1000000, avs test return 1500.831385
+    eval loss: 1500
+step 353000/1000000, avs test return 1749.003033
+    eval loss: 1749
+step 354000/1000000, avs test return 1759.604181
+    eval loss: 1759
+step 355000/1000000, avs test return 1543.191374
+    eval loss: 1543
+step 356000/1000000, avs test return 2032.387868
+    eval loss: 2032
+step 357000/1000000, avs test return 1961.745969
+    eval loss: 1961
+step 358000/1000000, avs test return 1962.037302
+    eval loss: 1962
+step 359000/1000000, avs test return 1433.197196
+    eval loss: 1433
+step 360000/1000000, avs test return 1349.983818
+    eval loss: 1349
+step 361000/1000000, avs test return 1807.975141
+    eval loss: 1807
+step 362000/1000000, avs test return 1859.288297
+    eval loss: 1859
+step 363000/1000000, avs test return 1907.657897
+    eval loss: 1907
+step 364000/1000000, avs test return 2167.666978
+    eval loss: 2167
+step 365000/1000000, avs test return 1944.809273
+    eval loss: 1944
+step 366000/1000000, avs test return 2249.346450
+    eval loss: 2249
+step 367000/1000000, avs test return 2056.363834
+    eval loss: 2056
+step 368000/1000000, avs test return 1694.491522
+    eval loss: 1694
+step 369000/1000000, avs test return 2134.044779
+    eval loss: 2134
+step 370000/1000000, avs test return 2052.568912
+    eval loss: 2052
+step 371000/1000000, avs test return 2367.215478
+    eval loss: 2367
+step 372000/1000000, avs test return 1821.004337
+    eval loss: 1821
+step 373000/1000000, avs test return 2235.974160
+    eval loss: 2235
+step 374000/1000000, avs test return 2278.640231
+    eval loss: 2278
+step 375000/1000000, avs test return 2189.533985
+    eval loss: 2189
+step 376000/1000000, avs test return 2138.031958
+    eval loss: 2138
+step 377000/1000000, avs test return 2348.526909
+    eval loss: 2348
+step 378000/1000000, avs test return 2399.535501
+    eval loss: 2399
+step 379000/1000000, avs test return 1983.863228
+    eval loss: 1983
+step 380000/1000000, avs test return 1817.265797
+    eval loss: 1817
+step 381000/1000000, avs test return 2143.338054
+    eval loss: 2143
+step 382000/1000000, avs test return 2152.854018
+    eval loss: 2152
+step 383000/1000000, avs test return 2054.215238
+    eval loss: 2054
+step 384000/1000000, avs test return 1788.799116
+    eval loss: 1788
+step 385000/1000000, avs test return 2029.865475
+    eval loss: 2029
+step 386000/1000000, avs test return 2148.587397
+    eval loss: 2148
+step 387000/1000000, avs test return 2346.667542
+    eval loss: 2346
+step 388000/1000000, avs test return 2292.618462
+    eval loss: 2292
+step 389000/1000000, avs test return 2244.884507
+    eval loss: 2244
+step 390000/1000000, avs test return 2062.779931
+    eval loss: 2062
+step 391000/1000000, avs test return 2190.456313
+    eval loss: 2190
+step 392000/1000000, avs test return 2236.186852
+    eval loss: 2236
+step 393000/1000000, avs test return 2316.426625
+    eval loss: 2316
+step 394000/1000000, avs test return 2320.048980
+    eval loss: 2320
+step 395000/1000000, avs test return 2294.879720
+    eval loss: 2294
+step 396000/1000000, avs test return 2188.530524
+    eval loss: 2188
+step 397000/1000000, avs test return 2296.178738
+    eval loss: 2296
+step 398000/1000000, avs test return 2451.084739
+    eval loss: 2451
+step 399000/1000000, avs test return 1806.342434
+    eval loss: 1806
+step 400000/1000000, avs test return 2436.850132
+    eval loss: 2436
+step 401000/1000000, avs test return 2149.050452
+    eval loss: 2149
+step 402000/1000000, avs test return 2156.532158
+    eval loss: 2156
+step 403000/1000000, avs test return 1915.795334
+    eval loss: 1915
+step 404000/1000000, avs test return 1941.369183
+    eval loss: 1941
+step 405000/1000000, avs test return 2371.194435
+    eval loss: 2371
+step 406000/1000000, avs test return 2417.707287
+    eval loss: 2417
+step 407000/1000000, avs test return 2045.104954
+    eval loss: 2045
+step 408000/1000000, avs test return 2372.077045
+    eval loss: 2372
+step 409000/1000000, avs test return 2468.483031
+    eval loss: 2468
+step 410000/1000000, avs test return 1959.075115
+    eval loss: 1959
+step 411000/1000000, avs test return 2368.394181
+    eval loss: 2368
+step 412000/1000000, avs test return 2261.032518
+    eval loss: 2261
+step 413000/1000000, avs test return 2293.700283
+    eval loss: 2293
+step 414000/1000000, avs test return 2125.459016
+    eval loss: 2125
+step 415000/1000000, avs test return 2378.301923
+    eval loss: 2378
+step 416000/1000000, avs test return 2552.655726
+    eval loss: 2552
+step 417000/1000000, avs test return 2234.414088
+    eval loss: 2234
+step 418000/1000000, avs test return 2137.387326
+    eval loss: 2137
+step 419000/1000000, avs test return 2023.069363
+    eval loss: 2023
+step 420000/1000000, avs test return 2075.635121
+    eval loss: 2075
+step 421000/1000000, avs test return 2424.048924
+    eval loss: 2424
+step 422000/1000000, avs test return 2144.516850
+    eval loss: 2144
+step 423000/1000000, avs test return 2098.853497
+    eval loss: 2098
+step 424000/1000000, avs test return 2259.573872
+    eval loss: 2259
+step 425000/1000000, avs test return 2034.857270
+    eval loss: 2034
+step 426000/1000000, avs test return 2341.815822
+    eval loss: 2341
+step 427000/1000000, avs test return 2020.125490
+    eval loss: 2020
+step 428000/1000000, avs test return 2036.006875
+    eval loss: 2036
+step 429000/1000000, avs test return 2225.300019
+    eval loss: 2225
+step 430000/1000000, avs test return 2275.888309
+    eval loss: 2275
+step 431000/1000000, avs test return 2451.511685
+    eval loss: 2451
+step 432000/1000000, avs test return 2360.497645
+    eval loss: 2360
+step 433000/1000000, avs test return 2379.223433
+    eval loss: 2379
+step 434000/1000000, avs test return 2402.351907
+    eval loss: 2402
+step 435000/1000000, avs test return 2346.335859
+    eval loss: 2346
+step 436000/1000000, avs test return 2317.848180
+    eval loss: 2317
+step 437000/1000000, avs test return 2527.164769
+    eval loss: 2527
+step 438000/1000000, avs test return 2594.291260
+    eval loss: 2594
+step 439000/1000000, avs test return 2513.017832
+    eval loss: 2513
+step 440000/1000000, avs test return 2332.315952
+    eval loss: 2332
+step 441000/1000000, avs test return 2145.809190
+    eval loss: 2145
+step 442000/1000000, avs test return 2585.191926
+    eval loss: 2585
+step 443000/1000000, avs test return 2594.730274
+    eval loss: 2594
+step 444000/1000000, avs test return 2498.273008
+    eval loss: 2498
+step 445000/1000000, avs test return 2638.028730
+    eval loss: 2638
+step 446000/1000000, avs test return 2321.009644
+    eval loss: 2321
+step 447000/1000000, avs test return 2155.083163
+    eval loss: 2155
+step 448000/1000000, avs test return 2333.556552
+    eval loss: 2333
+step 449000/1000000, avs test return 2174.659544
+    eval loss: 2174
+step 450000/1000000, avs test return 1787.700009
+    eval loss: 1787
+step 451000/1000000, avs test return 2130.029728
+    eval loss: 2130
+step 452000/1000000, avs test return 2352.881771
+    eval loss: 2352
+step 453000/1000000, avs test return 2404.597684
+    eval loss: 2404
+step 454000/1000000, avs test return 2561.549232
+    eval loss: 2561
+step 455000/1000000, avs test return 2593.630517
+    eval loss: 2593
+step 456000/1000000, avs test return 2343.689891
+    eval loss: 2343
+step 457000/1000000, avs test return 2348.491774
+    eval loss: 2348
+step 458000/1000000, avs test return 2547.978824
+    eval loss: 2547
+step 459000/1000000, avs test return 2597.716061
+    eval loss: 2597
+step 460000/1000000, avs test return 1701.285202
+    eval loss: 1701
+step 461000/1000000, avs test return 2640.336885
+    eval loss: 2640
+step 462000/1000000, avs test return 1832.775678
+    eval loss: 1832
+step 463000/1000000, avs test return 2665.466197
+    eval loss: 2665
+step 464000/1000000, avs test return 2398.814432
+    eval loss: 2398
+step 465000/1000000, avs test return 2236.331322
+    eval loss: 2236
+step 466000/1000000, avs test return 2562.463248
+    eval loss: 2562
+step 467000/1000000, avs test return 2450.188352
+    eval loss: 2450
+step 468000/1000000, avs test return 2391.311650
+    eval loss: 2391
+step 469000/1000000, avs test return 2144.076997
+    eval loss: 2144
+step 470000/1000000, avs test return 2394.941893
+    eval loss: 2394
+step 471000/1000000, avs test return 2257.311673
+    eval loss: 2257
+step 472000/1000000, avs test return 2088.514319
+    eval loss: 2088
+step 473000/1000000, avs test return 2566.677901
+    eval loss: 2566
+step 474000/1000000, avs test return 2086.860316
+    eval loss: 2086
+step 475000/1000000, avs test return 2656.887392
+    eval loss: 2656
+step 476000/1000000, avs test return 2660.544970
+    eval loss: 2660
+step 477000/1000000, avs test return 2102.204357
+    eval loss: 2102
+step 478000/1000000, avs test return 2758.253205
+    eval loss: 2758
+step 479000/1000000, avs test return 2680.403951
+    eval loss: 2680
+step 480000/1000000, avs test return 2484.312015
+    eval loss: 2484
+step 481000/1000000, avs test return 2221.079185
+    eval loss: 2221
+step 482000/1000000, avs test return 2090.353420
+    eval loss: 2090
+step 483000/1000000, avs test return 2509.271532
+    eval loss: 2509
+step 484000/1000000, avs test return 1952.142086
+    eval loss: 1952
+step 485000/1000000, avs test return 2342.252665
+    eval loss: 2342
+step 486000/1000000, avs test return 2423.776297
+    eval loss: 2423
+step 487000/1000000, avs test return 2504.517690
+    eval loss: 2504
+step 488000/1000000, avs test return 2769.558464
+    eval loss: 2769
+step 489000/1000000, avs test return 2318.824739
+    eval loss: 2318
+step 490000/1000000, avs test return 2577.655985
+    eval loss: 2577
+step 491000/1000000, avs test return 2554.071850
+    eval loss: 2554
+step 492000/1000000, avs test return 2329.504934
+    eval loss: 2329
+step 493000/1000000, avs test return 2581.571076
+    eval loss: 2581
+step 494000/1000000, avs test return 2330.977997
+    eval loss: 2330
+step 495000/1000000, avs test return 2393.570326
+    eval loss: 2393
+step 496000/1000000, avs test return 2143.900476
+    eval loss: 2143
+step 497000/1000000, avs test return 2827.998274
+    eval loss: 2827
+step 498000/1000000, avs test return 2666.879994
+    eval loss: 2666
+step 499000/1000000, avs test return 2327.659636
+    eval loss: 2327
+step 500000/1000000, avs test return 2770.734663
+    eval loss: 2770
+step 501000/1000000, avs test return 2409.380805
+    eval loss: 2409
+step 502000/1000000, avs test return 2160.571141
+    eval loss: 2160
+step 503000/1000000, avs test return 1993.781014
+    eval loss: 1993
+step 504000/1000000, avs test return 2396.301108
+    eval loss: 2396
+step 505000/1000000, avs test return 1892.531199
+    eval loss: 1892
+step 506000/1000000, avs test return 2192.389048
+    eval loss: 2192
+step 507000/1000000, avs test return 2191.527320
+    eval loss: 2191
+step 508000/1000000, avs test return 2462.219222
+    eval loss: 2462
+step 509000/1000000, avs test return 2542.508044
+    eval loss: 2542
+step 510000/1000000, avs test return 1480.182169
+    eval loss: 1480
+step 511000/1000000, avs test return 2717.028412
+    eval loss: 2717
+step 512000/1000000, avs test return 2017.865083
+    eval loss: 2017
+step 513000/1000000, avs test return 2641.429059
+    eval loss: 2641
+step 514000/1000000, avs test return 1974.683942
+    eval loss: 1974
+step 515000/1000000, avs test return 2482.706076
+    eval loss: 2482
+step 516000/1000000, avs test return 2385.355010
+    eval loss: 2385
+step 517000/1000000, avs test return 2225.094020
+    eval loss: 2225
+step 518000/1000000, avs test return 2682.609136
+    eval loss: 2682
+step 519000/1000000, avs test return 1965.057876
+    eval loss: 1965
+step 520000/1000000, avs test return 2454.953605
+    eval loss: 2454
+step 521000/1000000, avs test return 2319.706132
+    eval loss: 2319
+step 522000/1000000, avs test return 2430.490148
+    eval loss: 2430
+step 523000/1000000, avs test return 2168.921559
+    eval loss: 2168
+step 524000/1000000, avs test return 1816.752825
+    eval loss: 1816
+step 525000/1000000, avs test return 1570.892335
+    eval loss: 1570
+step 526000/1000000, avs test return 2360.359730
+    eval loss: 2360
+step 527000/1000000, avs test return 2304.123382
+    eval loss: 2304
+step 528000/1000000, avs test return 2534.223762
+    eval loss: 2534
+step 529000/1000000, avs test return 1833.978744
+    eval loss: 1833
+step 530000/1000000, avs test return 2490.555623
+    eval loss: 2490
+step 531000/1000000, avs test return 2341.406248
+    eval loss: 2341
+step 532000/1000000, avs test return 2317.426116
+    eval loss: 2317
+step 533000/1000000, avs test return 2566.977436
+    eval loss: 2566
+step 534000/1000000, avs test return 2516.766145
+    eval loss: 2516
+step 535000/1000000, avs test return 2210.836311
+    eval loss: 2210
+step 536000/1000000, avs test return 1994.597218
+    eval loss: 1994
+step 537000/1000000, avs test return 2086.514101
+    eval loss: 2086
+step 538000/1000000, avs test return 2431.288982
+    eval loss: 2431
+step 539000/1000000, avs test return 2394.226930
+    eval loss: 2394
+step 540000/1000000, avs test return 2204.800289
+    eval loss: 2204
+step 541000/1000000, avs test return 1961.677924
+    eval loss: 1961
+step 542000/1000000, avs test return 1978.765849
+    eval loss: 1978
+step 543000/1000000, avs test return 2130.817622
+    eval loss: 2130
+step 544000/1000000, avs test return 2516.992487
+    eval loss: 2516
+step 545000/1000000, avs test return 2747.457481
+    eval loss: 2747
+step 546000/1000000, avs test return 2275.769378
+    eval loss: 2275
+step 547000/1000000, avs test return 2851.517506
+    eval loss: 2851
+step 548000/1000000, avs test return 2554.504761
+    eval loss: 2554
+step 549000/1000000, avs test return 2618.844983
+    eval loss: 2618
+step 550000/1000000, avs test return 2473.944277
+    eval loss: 2473
+step 551000/1000000, avs test return 2353.307720
+    eval loss: 2353
+step 552000/1000000, avs test return 2808.396874
+    eval loss: 2808
+step 553000/1000000, avs test return 2699.793540
+    eval loss: 2699
+step 554000/1000000, avs test return 2520.434663
+    eval loss: 2520
+step 555000/1000000, avs test return 2494.918584
+    eval loss: 2494
+step 556000/1000000, avs test return 1641.253445
+    eval loss: 1641
+step 557000/1000000, avs test return 2321.651975
+    eval loss: 2321
+step 558000/1000000, avs test return 1909.495375
+    eval loss: 1909
+step 559000/1000000, avs test return 2157.670598
+    eval loss: 2157
+step 560000/1000000, avs test return 2365.667697
+    eval loss: 2365
+step 561000/1000000, avs test return 2048.944860
+    eval loss: 2048
+step 562000/1000000, avs test return 1792.979696
+    eval loss: 1792
+step 563000/1000000, avs test return 1814.962778
+    eval loss: 1814
+step 564000/1000000, avs test return 1642.600138
+    eval loss: 1642
+step 565000/1000000, avs test return 2873.037036
+    eval loss: 2873
+step 566000/1000000, avs test return 2454.862446
+    eval loss: 2454
+step 567000/1000000, avs test return 3067.439888
+    eval loss: 3067
+step 568000/1000000, avs test return 2705.361853
+    eval loss: 2705
+step 569000/1000000, avs test return 2451.240143
+    eval loss: 2451
+step 570000/1000000, avs test return 2052.247164
+    eval loss: 2052
+step 571000/1000000, avs test return 2567.958765
+    eval loss: 2567
+step 572000/1000000, avs test return 2945.179096
+    eval loss: 2945
+step 573000/1000000, avs test return 2836.904916
+    eval loss: 2836
+step 574000/1000000, avs test return 1921.077149
+    eval loss: 1921
+step 575000/1000000, avs test return 2554.420731
+    eval loss: 2554
+step 576000/1000000, avs test return 2749.909796
+    eval loss: 2749
+step 577000/1000000, avs test return 2476.772848
+    eval loss: 2476
+step 578000/1000000, avs test return 3095.781594
+    eval loss: 3095
+step 579000/1000000, avs test return 2004.202011
+    eval loss: 2004
+step 580000/1000000, avs test return 2806.874883
+    eval loss: 2806
+step 581000/1000000, avs test return 2981.025878
+    eval loss: 2981
+step 582000/1000000, avs test return 2932.026534
+    eval loss: 2932
+step 583000/1000000, avs test return 2513.354916
+    eval loss: 2513
+step 584000/1000000, avs test return 1863.189113
+    eval loss: 1863
+step 585000/1000000, avs test return 2755.201565
+    eval loss: 2755
+step 586000/1000000, avs test return 1423.069821
+    eval loss: 1423
+step 587000/1000000, avs test return 1875.783207
+    eval loss: 1875
+step 588000/1000000, avs test return 1850.415564
+    eval loss: 1850
+step 589000/1000000, avs test return 2648.235177
+    eval loss: 2648
+step 590000/1000000, avs test return 2150.537281
+    eval loss: 2150
+step 591000/1000000, avs test return 2721.665565
+    eval loss: 2721
+step 592000/1000000, avs test return 2431.544189
+    eval loss: 2431
+step 593000/1000000, avs test return 2432.735866
+    eval loss: 2432
+step 594000/1000000, avs test return 1837.475793
+    eval loss: 1837
+step 595000/1000000, avs test return 2086.873065
+    eval loss: 2086
+step 596000/1000000, avs test return 2620.216883
+    eval loss: 2620
+step 597000/1000000, avs test return 1200.512823
+    eval loss: 1200
+step 598000/1000000, avs test return 2636.723132
+    eval loss: 2636
+step 599000/1000000, avs test return 1937.660568
+    eval loss: 1937
+step 600000/1000000, avs test return 2188.442074
+    eval loss: 2188
+step 601000/1000000, avs test return 2657.371952
+    eval loss: 2657
+step 602000/1000000, avs test return 2457.461198
+    eval loss: 2457
+step 603000/1000000, avs test return 2106.510526
+    eval loss: 2106
+step 604000/1000000, avs test return 3050.149133
+    eval loss: 3050
+step 605000/1000000, avs test return 2079.388463
+    eval loss: 2079
+step 606000/1000000, avs test return 2654.199532
+    eval loss: 2654
+step 607000/1000000, avs test return 2107.195369
+    eval loss: 2107
+step 608000/1000000, avs test return 2799.809550
+    eval loss: 2799
+step 609000/1000000, avs test return 1725.949962
+    eval loss: 1725
+step 610000/1000000, avs test return 2278.223887
+    eval loss: 2278
+step 611000/1000000, avs test return 2020.464448
+    eval loss: 2020
+step 612000/1000000, avs test return 3304.745273
+    eval loss: 3304
+step 613000/1000000, avs test return 2021.344369
+    eval loss: 2021
+step 614000/1000000, avs test return 2004.928106
+    eval loss: 2004
+step 615000/1000000, avs test return 2893.405668
+    eval loss: 2893
+step 616000/1000000, avs test return 2690.610302
+    eval loss: 2690
+step 617000/1000000, avs test return 2151.471240
+    eval loss: 2151
+step 618000/1000000, avs test return 3230.789221
+    eval loss: 3230
+step 619000/1000000, avs test return 1971.009706
+    eval loss: 1971
+step 620000/1000000, avs test return 2786.912775
+    eval loss: 2786
+step 621000/1000000, avs test return 2838.823562
+    eval loss: 2838
+step 622000/1000000, avs test return 3426.694904
+    eval loss: 3426
+step 623000/1000000, avs test return 2903.720503
+    eval loss: 2903
+step 624000/1000000, avs test return 3447.018237
+    eval loss: 3447
+step 625000/1000000, avs test return 3206.718593
+    eval loss: 3206
+step 626000/1000000, avs test return 2223.621714
+    eval loss: 2223
+step 627000/1000000, avs test return 2559.857521
+    eval loss: 2559
+step 628000/1000000, avs test return 2686.669048
+    eval loss: 2686
+step 629000/1000000, avs test return 3024.495116
+    eval loss: 3024
+step 630000/1000000, avs test return 1671.001992
+    eval loss: 1671
+step 631000/1000000, avs test return 2312.743594
+    eval loss: 2312
+step 632000/1000000, avs test return 2532.760788
+    eval loss: 2532
+step 633000/1000000, avs test return 2830.047430
+    eval loss: 2830
+step 634000/1000000, avs test return 2251.101193
+    eval loss: 2251
+step 635000/1000000, avs test return 1567.397193
+    eval loss: 1567
+step 636000/1000000, avs test return 2626.419697
+    eval loss: 2626
+step 637000/1000000, avs test return 2907.030198
+    eval loss: 2907
+step 638000/1000000, avs test return 2633.126678
+    eval loss: 2633
+step 639000/1000000, avs test return 2576.476673
+    eval loss: 2576
+step 640000/1000000, avs test return 2728.426175
+    eval loss: 2728
+step 641000/1000000, avs test return 2753.766037
+    eval loss: 2753
+step 642000/1000000, avs test return 2736.018119
+    eval loss: 2736
+step 643000/1000000, avs test return 2032.752002
+    eval loss: 2032
+step 644000/1000000, avs test return 2450.129351
+    eval loss: 2450
+step 645000/1000000, avs test return 2625.803621
+    eval loss: 2625
+step 646000/1000000, avs test return 2685.941951
+    eval loss: 2685
+step 647000/1000000, avs test return 1918.610339
+    eval loss: 1918
+step 648000/1000000, avs test return 2795.207494
+    eval loss: 2795
+step 649000/1000000, avs test return 2939.746668
+    eval loss: 2939
+step 650000/1000000, avs test return 2406.692337
+    eval loss: 2406
+step 651000/1000000, avs test return 2420.790473
+    eval loss: 2420
+step 652000/1000000, avs test return 2318.204635
+    eval loss: 2318
+step 653000/1000000, avs test return 2843.347978
+    eval loss: 2843
+step 654000/1000000, avs test return 3077.195617
+    eval loss: 3077
+step 655000/1000000, avs test return 3175.735372
+    eval loss: 3175
+step 656000/1000000, avs test return 2825.967832
+    eval loss: 2825
+step 657000/1000000, avs test return 1050.879999
+    eval loss: 1050
+step 658000/1000000, avs test return 2251.900727
+    eval loss: 2251
+step 659000/1000000, avs test return 2401.905566
+    eval loss: 2401
+step 660000/1000000, avs test return 2879.802105
+    eval loss: 2879
+step 661000/1000000, avs test return 1783.084495
+    eval loss: 1783
+step 662000/1000000, avs test return 2440.084272
+    eval loss: 2440
+step 663000/1000000, avs test return 2894.471749
+    eval loss: 2894
+step 664000/1000000, avs test return 1531.892827
+    eval loss: 1531
+step 665000/1000000, avs test return 1680.009069
+    eval loss: 1680
+step 666000/1000000, avs test return 1070.594848
+    eval loss: 1070
+step 667000/1000000, avs test return 2411.392997
+    eval loss: 2411
+step 668000/1000000, avs test return 3257.208268
+    eval loss: 3257
+step 669000/1000000, avs test return 2660.460539
+    eval loss: 2660
+step 670000/1000000, avs test return 2772.066468
+    eval loss: 2772
+step 671000/1000000, avs test return 1105.415494
+    eval loss: 1105
+step 672000/1000000, avs test return 2157.771357
+    eval loss: 2157
+step 673000/1000000, avs test return 2780.057202
+    eval loss: 2780
+step 674000/1000000, avs test return 2123.218471
+    eval loss: 2123
+step 675000/1000000, avs test return 1844.800564
+    eval loss: 1844
+step 676000/1000000, avs test return 1346.597172
+    eval loss: 1346
+step 677000/1000000, avs test return 3126.767638
+    eval loss: 3126
+step 678000/1000000, avs test return 3118.324375
+    eval loss: 3118
+step 679000/1000000, avs test return 2324.048650
+    eval loss: 2324
+step 680000/1000000, avs test return 2295.302530
+    eval loss: 2295
+step 681000/1000000, avs test return 3303.857556
+    eval loss: 3303
+step 682000/1000000, avs test return 2690.310014
+    eval loss: 2690
+step 683000/1000000, avs test return 4104.923324
+    eval loss: 4104
+step 684000/1000000, avs test return 3064.658218
+    eval loss: 3064
+step 685000/1000000, avs test return 2443.637802
+    eval loss: 2443
+step 686000/1000000, avs test return 2035.169657
+    eval loss: 2035
+step 687000/1000000, avs test return 2693.188746
+    eval loss: 2693
+step 688000/1000000, avs test return 3199.463930
+    eval loss: 3199
+step 689000/1000000, avs test return 3568.218698
+    eval loss: 3568
+step 690000/1000000, avs test return 2424.801190
+    eval loss: 2424
+step 691000/1000000, avs test return 3318.213195
+    eval loss: 3318
+step 692000/1000000, avs test return 3732.917248
+    eval loss: 3732
+step 693000/1000000, avs test return 3595.056700
+    eval loss: 3595
+step 694000/1000000, avs test return 3109.320714
+    eval loss: 3109
+step 695000/1000000, avs test return 3924.286468
+    eval loss: 3924
+step 696000/1000000, avs test return 2280.628943
+    eval loss: 2280
+step 697000/1000000, avs test return 2736.740493
+    eval loss: 2736
+step 698000/1000000, avs test return 2773.668332
+    eval loss: 2773
+step 699000/1000000, avs test return 3138.349217
+    eval loss: 3138
+step 700000/1000000, avs test return 2820.550643
+    eval loss: 2820
+step 701000/1000000, avs test return 2816.697226
+    eval loss: 2816
+step 702000/1000000, avs test return 3082.178388
+    eval loss: 3082
+step 703000/1000000, avs test return 2857.689182
+    eval loss: 2857
+step 704000/1000000, avs test return 2881.171533
+    eval loss: 2881
+step 705000/1000000, avs test return 3157.526401
+    eval loss: 3157
+step 706000/1000000, avs test return 2188.671680
+    eval loss: 2188
+step 707000/1000000, avs test return 3717.767116
+    eval loss: 3717
+step 708000/1000000, avs test return 3683.532834
+    eval loss: 3683
+step 709000/1000000, avs test return 3612.406050
+    eval loss: 3612
+step 710000/1000000, avs test return 3158.765037
+    eval loss: 3158
+step 711000/1000000, avs test return 3321.033163
+    eval loss: 3321
+step 712000/1000000, avs test return 814.272781
+    eval loss: 814
+step 713000/1000000, avs test return 3095.889438
+    eval loss: 3095
+step 714000/1000000, avs test return 2214.970328
+    eval loss: 2214
+step 715000/1000000, avs test return 2707.698469
+    eval loss: 2707
+step 716000/1000000, avs test return 3207.233924
+    eval loss: 3207
+step 717000/1000000, avs test return 2830.630974
+    eval loss: 2830
+step 718000/1000000, avs test return 2700.671552
+    eval loss: 2700
+step 719000/1000000, avs test return 1780.499700
+    eval loss: 1780
+step 720000/1000000, avs test return 2940.503846
+    eval loss: 2940
+step 721000/1000000, avs test return 3529.275982
+    eval loss: 3529
+step 722000/1000000, avs test return 1954.526347
+    eval loss: 1954
+step 723000/1000000, avs test return 3095.360221
+    eval loss: 3095
+step 724000/1000000, avs test return 2835.231540
+    eval loss: 2835
+step 725000/1000000, avs test return 2493.323074
+    eval loss: 2493
+step 726000/1000000, avs test return 2727.488870
+    eval loss: 2727
+step 727000/1000000, avs test return 3602.210175
+    eval loss: 3602
+step 728000/1000000, avs test return 2919.473375
+    eval loss: 2919
+step 729000/1000000, avs test return 3452.635247
+    eval loss: 3452
+step 730000/1000000, avs test return 3839.522173
+    eval loss: 3839
+step 731000/1000000, avs test return 2932.784195
+    eval loss: 2932
+step 732000/1000000, avs test return 2624.496273
+    eval loss: 2624
+step 733000/1000000, avs test return 2033.144723
+    eval loss: 2033
+step 734000/1000000, avs test return 1789.858525
+    eval loss: 1789
+step 735000/1000000, avs test return 3463.224408
+    eval loss: 3463
+step 736000/1000000, avs test return 3018.316070
+    eval loss: 3018
+step 737000/1000000, avs test return 2319.079794
+    eval loss: 2319
+step 738000/1000000, avs test return 2968.860196
+    eval loss: 2968
+step 739000/1000000, avs test return 3678.404767
+    eval loss: 3678
+step 740000/1000000, avs test return 3082.976186
+    eval loss: 3082
+step 741000/1000000, avs test return 2758.197439
+    eval loss: 2758
+step 742000/1000000, avs test return 4004.577568
+    eval loss: 4004
+step 743000/1000000, avs test return 3356.066140
+    eval loss: 3356
+step 744000/1000000, avs test return 2781.789475
+    eval loss: 2781
+step 745000/1000000, avs test return 2786.072287
+    eval loss: 2786
+step 746000/1000000, avs test return 1506.618181
+    eval loss: 1506
+step 747000/1000000, avs test return 3494.680105
+    eval loss: 3494
+step 748000/1000000, avs test return 2079.211464
+    eval loss: 2079
+step 749000/1000000, avs test return 2236.489555
+    eval loss: 2236
+step 750000/1000000, avs test return 1637.249859
+    eval loss: 1637
+step 751000/1000000, avs test return 1752.786168
+    eval loss: 1752
+step 752000/1000000, avs test return 2489.254010
+    eval loss: 2489
+step 753000/1000000, avs test return 2048.865909
+    eval loss: 2048
+step 754000/1000000, avs test return 3031.818914
+    eval loss: 3031
+step 755000/1000000, avs test return 2922.032843
+    eval loss: 2922
+step 756000/1000000, avs test return 1435.420687
+    eval loss: 1435
+step 757000/1000000, avs test return 3692.497531
+    eval loss: 3692
+step 758000/1000000, avs test return 2157.661019
+    eval loss: 2157
+step 759000/1000000, avs test return 1446.907501
+    eval loss: 1446
+step 760000/1000000, avs test return 1276.611044
+    eval loss: 1276
+step 761000/1000000, avs test return 2516.350440
+    eval loss: 2516
+step 762000/1000000, avs test return 1088.917010
+    eval loss: 1088
+step 763000/1000000, avs test return 1686.911962
+    eval loss: 1686
+step 764000/1000000, avs test return 2960.138964
+    eval loss: 2960
+step 765000/1000000, avs test return 3205.186499
+    eval loss: 3205
+step 766000/1000000, avs test return 2178.687583
+    eval loss: 2178
+step 767000/1000000, avs test return 2282.127682
+    eval loss: 2282
+step 768000/1000000, avs test return 1936.402241
+    eval loss: 1936
+step 769000/1000000, avs test return 1180.086312
+    eval loss: 1180
+step 770000/1000000, avs test return 1823.302828
+    eval loss: 1823
+step 771000/1000000, avs test return 2098.441190
+    eval loss: 2098
+step 772000/1000000, avs test return 1425.750429
+    eval loss: 1425
+step 773000/1000000, avs test return 3183.876817
+    eval loss: 3183
+step 774000/1000000, avs test return 1602.276415
+    eval loss: 1602
+step 775000/1000000, avs test return 2114.774470
+    eval loss: 2114
+step 776000/1000000, avs test return 1320.044475
+    eval loss: 1320
+step 777000/1000000, avs test return 829.462920
+    eval loss: 829
+step 778000/1000000, avs test return 2227.270751
+    eval loss: 2227
+step 779000/1000000, avs test return 3091.398464
+    eval loss: 3091
+step 780000/1000000, avs test return 1571.359642
+    eval loss: 1571
+step 781000/1000000, avs test return 2658.749475
+    eval loss: 2658
+step 782000/1000000, avs test return 1707.523925
+    eval loss: 1707
+step 783000/1000000, avs test return 3374.655261
+    eval loss: 3374
+step 784000/1000000, avs test return 1391.806414
+    eval loss: 1391
+step 785000/1000000, avs test return 1603.886837
+    eval loss: 1603
+step 786000/1000000, avs test return 1714.688342
+    eval loss: 1714
+step 787000/1000000, avs test return 2521.055013
+    eval loss: 2521
+step 788000/1000000, avs test return 1426.408847
+    eval loss: 1426
+step 789000/1000000, avs test return 2267.485418
+    eval loss: 2267
+step 790000/1000000, avs test return 1737.842274
+    eval loss: 1737
+step 791000/1000000, avs test return 1996.909833
+    eval loss: 1996
+step 792000/1000000, avs test return 2402.525875
+    eval loss: 2402
+step 793000/1000000, avs test return 2880.114844
+    eval loss: 2880
+step 794000/1000000, avs test return 1582.331633
+    eval loss: 1582
+step 795000/1000000, avs test return 2765.768837
+    eval loss: 2765
+step 796000/1000000, avs test return 2832.574110
+    eval loss: 2832
+step 797000/1000000, avs test return 2338.474723
+    eval loss: 2338
+step 798000/1000000, avs test return 2781.492501
+    eval loss: 2781
+step 799000/1000000, avs test return 2346.522006
+    eval loss: 2346
+step 800000/1000000, avs test return 2518.804790
+    eval loss: 2518
+step 801000/1000000, avs test return 2407.249409
+    eval loss: 2407
+step 802000/1000000, avs test return 3872.865145
+    eval loss: 3872
+step 803000/1000000, avs test return 2794.931061
+    eval loss: 2794
+step 804000/1000000, avs test return 2751.956256
+    eval loss: 2751
+step 805000/1000000, avs test return 3042.717293
+    eval loss: 3042
+step 806000/1000000, avs test return 3257.752986
+    eval loss: 3257
+step 807000/1000000, avs test return 2843.700832
+    eval loss: 2843
+step 808000/1000000, avs test return 3229.488473
+    eval loss: 3229
+step 809000/1000000, avs test return 1469.661090
+    eval loss: 1469
+step 810000/1000000, avs test return 3191.082469
+    eval loss: 3191
+step 811000/1000000, avs test return 3390.230664
+    eval loss: 3390
+step 812000/1000000, avs test return 2976.748275
+    eval loss: 2976
+step 813000/1000000, avs test return 1785.886456
+    eval loss: 1785
+step 814000/1000000, avs test return 3746.387356
+    eval loss: 3746
+step 815000/1000000, avs test return 3209.747554
+    eval loss: 3209
+step 816000/1000000, avs test return 3452.375286
+    eval loss: 3452
+step 817000/1000000, avs test return 3631.346563
+    eval loss: 3631
+step 818000/1000000, avs test return 3116.628677
+    eval loss: 3116
+step 819000/1000000, avs test return 2981.194093
+    eval loss: 2981
+step 820000/1000000, avs test return 2483.667311
+    eval loss: 2483
+step 821000/1000000, avs test return 3441.627645
+    eval loss: 3441
+step 822000/1000000, avs test return 3403.937135
+    eval loss: 3403
+step 823000/1000000, avs test return 3429.483160
+    eval loss: 3429
+step 824000/1000000, avs test return 3942.417734
+    eval loss: 3942
+step 825000/1000000, avs test return 3793.490919
+    eval loss: 3793
+step 826000/1000000, avs test return 3017.968662
+    eval loss: 3017
+step 827000/1000000, avs test return 3023.455435
+    eval loss: 3023
+step 828000/1000000, avs test return 2039.693136
+    eval loss: 2039
+step 829000/1000000, avs test return 3332.993909
+    eval loss: 3332
+step 830000/1000000, avs test return 3152.444099
+    eval loss: 3152
+step 831000/1000000, avs test return 2421.786889
+    eval loss: 2421
+step 832000/1000000, avs test return 3066.104574
+    eval loss: 3066
+step 833000/1000000, avs test return 1510.952632
+    eval loss: 1510
+step 834000/1000000, avs test return 2370.700207
+    eval loss: 2370
+step 835000/1000000, avs test return 2095.629683
+    eval loss: 2095
+step 836000/1000000, avs test return 2873.597826
+    eval loss: 2873
+step 837000/1000000, avs test return 2818.851679
+    eval loss: 2818
+step 838000/1000000, avs test return 3847.850217
+    eval loss: 3847
+step 839000/1000000, avs test return 3682.500192
+    eval loss: 3682
+step 840000/1000000, avs test return 2011.990164
+    eval loss: 2011
+step 841000/1000000, avs test return 3462.592570
+    eval loss: 3462
+step 842000/1000000, avs test return 3330.148900
+    eval loss: 3330
+step 843000/1000000, avs test return 3696.570407
+    eval loss: 3696
+step 844000/1000000, avs test return 2981.332539
+    eval loss: 2981
+step 845000/1000000, avs test return 4212.245645
+    eval loss: 4212
+step 846000/1000000, avs test return 3487.196401
+    eval loss: 3487
+step 847000/1000000, avs test return 4050.625581
+    eval loss: 4050
+step 848000/1000000, avs test return 2985.497531
+    eval loss: 2985
+step 849000/1000000, avs test return 3791.852496
+    eval loss: 3791
+step 850000/1000000, avs test return 2637.282442
+    eval loss: 2637
+step 851000/1000000, avs test return 2935.848328
+    eval loss: 2935
+step 852000/1000000, avs test return 3674.678588
+    eval loss: 3674
+step 853000/1000000, avs test return 2970.876440
+    eval loss: 2970
+step 854000/1000000, avs test return 2363.646537
+    eval loss: 2363
+step 855000/1000000, avs test return 2573.576485
+    eval loss: 2573
+step 856000/1000000, avs test return 3339.926484
+    eval loss: 3339
+step 857000/1000000, avs test return 3156.483806
+    eval loss: 3156
+step 858000/1000000, avs test return 3539.538814
+    eval loss: 3539
+step 859000/1000000, avs test return 1814.298750
+    eval loss: 1814
+step 860000/1000000, avs test return 3356.429509
+    eval loss: 3356
+step 861000/1000000, avs test return 3918.075852
+    eval loss: 3918
+step 862000/1000000, avs test return 1758.739427
+    eval loss: 1758
+step 863000/1000000, avs test return 3354.749249
+    eval loss: 3354
+step 864000/1000000, avs test return 1618.305411
+    eval loss: 1618
+step 865000/1000000, avs test return 2758.248091
+    eval loss: 2758
+step 866000/1000000, avs test return 3666.137656
+    eval loss: 3666
+step 867000/1000000, avs test return 2668.301502
+    eval loss: 2668
+step 868000/1000000, avs test return 2199.528527
+    eval loss: 2199
+step 869000/1000000, avs test return 4012.282619
+    eval loss: 4012
+step 870000/1000000, avs test return 2719.826141
+    eval loss: 2719
+step 871000/1000000, avs test return 2220.809857
+    eval loss: 2220
+step 872000/1000000, avs test return 3058.909337
+    eval loss: 3058
+step 873000/1000000, avs test return 3168.751107
+    eval loss: 3168
+step 874000/1000000, avs test return 2262.884382
+    eval loss: 2262
+step 875000/1000000, avs test return 3377.207412
+    eval loss: 3377
+step 876000/1000000, avs test return 3092.775355
+    eval loss: 3092
+step 877000/1000000, avs test return 3263.669751
+    eval loss: 3263
+step 878000/1000000, avs test return 2444.007985
+    eval loss: 2444
+step 879000/1000000, avs test return 3781.136979
+    eval loss: 3781
+step 880000/1000000, avs test return 3635.700802
+    eval loss: 3635
+step 881000/1000000, avs test return 3670.574587
+    eval loss: 3670
+step 882000/1000000, avs test return 3251.730175
+    eval loss: 3251
+step 883000/1000000, avs test return 2252.934073
+    eval loss: 2252
+step 884000/1000000, avs test return 3097.566271
+    eval loss: 3097
+step 885000/1000000, avs test return 2993.251791
+    eval loss: 2993
+step 886000/1000000, avs test return 3660.477551
+    eval loss: 3660
+step 887000/1000000, avs test return 3740.388248
+    eval loss: 3740
+step 888000/1000000, avs test return 2989.936684
+    eval loss: 2989
+step 889000/1000000, avs test return 2369.770736
+    eval loss: 2369
+step 890000/1000000, avs test return 3196.074564
+    eval loss: 3196
+step 891000/1000000, avs test return 3906.446241
+    eval loss: 3906
+step 892000/1000000, avs test return 3819.245237
+    eval loss: 3819
+step 893000/1000000, avs test return 3092.990622
+    eval loss: 3092
+step 894000/1000000, avs test return 3239.642678
+    eval loss: 3239
+step 895000/1000000, avs test return 3223.876324
+    eval loss: 3223
+step 896000/1000000, avs test return 2586.854352
+    eval loss: 2586
+step 897000/1000000, avs test return 3641.699894
+    eval loss: 3641
+step 898000/1000000, avs test return 2849.668703
+    eval loss: 2849
+step 899000/1000000, avs test return 3561.319285
+    eval loss: 3561
+step 900000/1000000, avs test return 2881.260700
+    eval loss: 2881
+step 901000/1000000, avs test return 2162.454072
+    eval loss: 2162
+step 902000/1000000, avs test return 2423.807953
+    eval loss: 2423
+step 903000/1000000, avs test return 3163.751894
+    eval loss: 3163
+step 904000/1000000, avs test return 3275.450051
+    eval loss: 3275
+step 905000/1000000, avs test return 2210.221077
+    eval loss: 2210
+step 906000/1000000, avs test return 2013.462344
+    eval loss: 2013
+step 907000/1000000, avs test return 2830.562227
+    eval loss: 2830
+step 908000/1000000, avs test return 3733.735216
+    eval loss: 3733
+step 909000/1000000, avs test return 3258.531617
+    eval loss: 3258
+step 910000/1000000, avs test return 2563.967437
+    eval loss: 2563
+step 911000/1000000, avs test return 2999.001467
+    eval loss: 2999
+step 912000/1000000, avs test return 2657.654856
+    eval loss: 2657
+step 913000/1000000, avs test return 3086.999360
+    eval loss: 3086
+step 914000/1000000, avs test return 3733.634483
+    eval loss: 3733
+step 915000/1000000, avs test return 2901.194037
+    eval loss: 2901
+step 916000/1000000, avs test return 3601.025579
+    eval loss: 3601
+step 917000/1000000, avs test return 3399.937912
+    eval loss: 3399
+step 918000/1000000, avs test return 4004.162734
+    eval loss: 4004
+step 919000/1000000, avs test return 2719.132019
+    eval loss: 2719
+step 920000/1000000, avs test return 3339.311954
+    eval loss: 3339
+step 921000/1000000, avs test return 3033.026070
+    eval loss: 3033
+step 922000/1000000, avs test return 2162.213115
+    eval loss: 2162
+step 923000/1000000, avs test return 3203.906687
+    eval loss: 3203
+step 924000/1000000, avs test return 1911.996670
+    eval loss: 1911
+step 925000/1000000, avs test return 3272.740677
+    eval loss: 3272
+step 926000/1000000, avs test return 2430.178831
+    eval loss: 2430
+step 927000/1000000, avs test return 4230.989988
+    eval loss: 4230
+step 928000/1000000, avs test return 2466.637075
+    eval loss: 2466
+step 929000/1000000, avs test return 1476.619352
+    eval loss: 1476
+step 930000/1000000, avs test return 4479.775214
+    eval loss: 4479
+step 931000/1000000, avs test return 3464.559506
+    eval loss: 3464
+step 932000/1000000, avs test return 4444.517278
+    eval loss: 4444
+step 933000/1000000, avs test return 3056.615571
+    eval loss: 3056
+step 934000/1000000, avs test return 3414.759370
+    eval loss: 3414
+step 935000/1000000, avs test return 4195.450313
+    eval loss: 4195
+step 936000/1000000, avs test return 3700.903436
+    eval loss: 3700
+step 937000/1000000, avs test return 3648.854549
+    eval loss: 3648
+step 938000/1000000, avs test return 1628.728119
+    eval loss: 1628
+step 939000/1000000, avs test return 2761.969863
+    eval loss: 2761
+step 940000/1000000, avs test return 2176.803253
+    eval loss: 2176
+step 941000/1000000, avs test return 3379.133982
+    eval loss: 3379
+step 942000/1000000, avs test return 4074.554648
+    eval loss: 4074
+step 943000/1000000, avs test return 4447.970906
+    eval loss: 4447
+step 944000/1000000, avs test return 3481.007787
+    eval loss: 3481
+step 945000/1000000, avs test return 3964.007289
+    eval loss: 3964
+step 946000/1000000, avs test return 2969.666976
+    eval loss: 2969
+step 947000/1000000, avs test return 4541.218022
+    eval loss: 4541
+step 948000/1000000, avs test return 2519.409307
+    eval loss: 2519
+step 949000/1000000, avs test return 1964.469007
+    eval loss: 1964
+step 950000/1000000, avs test return 3516.225490
+    eval loss: 3516
+step 951000/1000000, avs test return 4240.301713
+    eval loss: 4240
+step 952000/1000000, avs test return 2513.003697
+    eval loss: 2513
+step 953000/1000000, avs test return 4062.067182
+    eval loss: 4062
+step 954000/1000000, avs test return 2638.608799
+    eval loss: 2638
+step 955000/1000000, avs test return 3122.888121
+    eval loss: 3122
+step 956000/1000000, avs test return 3545.187121
+    eval loss: 3545
+step 957000/1000000, avs test return 3405.705018
+    eval loss: 3405
+step 958000/1000000, avs test return 3147.172221
+    eval loss: 3147
+step 959000/1000000, avs test return 3373.334884
+    eval loss: 3373
+step 960000/1000000, avs test return 3991.235973
+    eval loss: 3991
+step 961000/1000000, avs test return 2007.105578
+    eval loss: 2007
+step 962000/1000000, avs test return 1891.837845
+    eval loss: 1891
+step 963000/1000000, avs test return 3212.013745
+    eval loss: 3212
+step 964000/1000000, avs test return 4192.553523
+    eval loss: 4192
+step 965000/1000000, avs test return 2481.734038
+    eval loss: 2481
+step 966000/1000000, avs test return 2627.608318
+    eval loss: 2627
+step 967000/1000000, avs test return 3540.142353
+    eval loss: 3540
+step 968000/1000000, avs test return 3334.064763
+    eval loss: 3334
+step 969000/1000000, avs test return 4414.785411
+    eval loss: 4414
+step 970000/1000000, avs test return 3621.461593
+    eval loss: 3621
+step 971000/1000000, avs test return 4258.007624
+    eval loss: 4258
+step 972000/1000000, avs test return 3731.269256
+    eval loss: 3731
+step 973000/1000000, avs test return 3463.095022
+    eval loss: 3463
+step 974000/1000000, avs test return 3406.205495
+    eval loss: 3406
+step 975000/1000000, avs test return 3379.654630
+    eval loss: 3379
+step 976000/1000000, avs test return 2515.528812
+    eval loss: 2515
+step 977000/1000000, avs test return 3679.085984
+    eval loss: 3679
+step 978000/1000000, avs test return 3313.942016
+    eval loss: 3313
+step 979000/1000000, avs test return 3229.450740
+    eval loss: 3229
+step 980000/1000000, avs test return 2393.947350
+    eval loss: 2393
+step 981000/1000000, avs test return 3424.116653
+    eval loss: 3424
+step 982000/1000000, avs test return 4092.345557
+    eval loss: 4092
+step 983000/1000000, avs test return 2997.728542
+    eval loss: 2997
+step 984000/1000000, avs test return 2171.874114
+    eval loss: 2171
+step 985000/1000000, avs test return 4134.516379
+    eval loss: 4134
+step 986000/1000000, avs test return 4784.330599
+    eval loss: 4784
+step 987000/1000000, avs test return 3921.711562
+    eval loss: 3921
+step 988000/1000000, avs test return 3202.960083
+    eval loss: 3202
+step 989000/1000000, avs test return 4336.496407
+    eval loss: 4336
+step 990000/1000000, avs test return 2067.662132
+    eval loss: 2067
+step 991000/1000000, avs test return 3895.746533
+    eval loss: 3895
+step 992000/1000000, avs test return 1998.278873
+    eval loss: 1998
+step 993000/1000000, avs test return 4461.285531
+    eval loss: 4461
+step 994000/1000000, avs test return 3643.064366
+    eval loss: 3643
+step 995000/1000000, avs test return 4109.244016
+    eval loss: 4109
+step 996000/1000000, avs test return 3141.986507
+    eval loss: 3141
+step 997000/1000000, avs test return 2890.992075
+    eval loss: 2890
+step 998000/1000000, avs test return 3568.415478
+    eval loss: 3568
+step 999000/1000000, avs test return 3938.122880
+    eval loss: 3938
+step 1000000/1000000, avs test return 4501.644752
+    eval loss: 4501
+# # # # # # # # # # # # # # # # #
+

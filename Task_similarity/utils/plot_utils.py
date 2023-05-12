@@ -1,18 +1,18 @@
 import numpy as np
-import matplotlib.pyplot as plt
+import torch
+import torch.nn.functional as F
+import torch.nn as nn
+import torch.optim as optim
+from tqdm import tqdm
+from utils import helper
 
-
-def plot_task_similarity_score(means, stds, fig_name='test'):
-    x_axis = [k for k in range(len(means))]
+def plot_avg_ret(ret, steps, f_name=None):
     plt.figure(figsize=(10, 8))
-    plt.errorbar(x_axis, means, lw=2.0, linestyle='--', yerr=stds, 
-                ecolor='black', color='black', capsize=10.0, capthick=2.0, 
-                markeredgewidth=2.0)
-    plt.scatter(x_axis, means, s=100)
-    plt.xlabel('tasks', fontsize=18)
-    plt.ylabel('similarity', fontsize=18)
-    plt.xticks(x_axis, [f'$sim(T_0, T_{k})$' for k in range(len(means))], fontsize=8)    
-    plt.savefig(f'figures/{fig_name}.png', dpi=300)
-    plt.show()
-    
+    smooth_ret = helper.smooth(ret, window=10)
+    plt.plot(steps, smooth_ret, lw=2.0)
+    plt.xlabel(r'steps')
+    plt.ylabel(r'average return')
+    plt.savefig(f'figures/{f_name}.pdf')
+
+
 
